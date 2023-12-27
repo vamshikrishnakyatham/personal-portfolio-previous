@@ -49,7 +49,7 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/vamshikrishna.kyatham.22/" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/vamshikrishna_22/" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
-                <button className="vvd" onClick={() => console.log('connect')}><span>Let’s Connect</span></button>
+              <button className="vvd" onClick={() => { console.log('connect'); window.location.href = '#connect'; }}><span>Let’s Connect</span></button>
             </span>
           </Navbar.Collapse>
         </Container>
